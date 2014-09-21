@@ -45,6 +45,7 @@ class ObjectModeler extends Modeler{
 public class DOM {
 	public static void main(String arg[]){
 		ObjectModeler modeler = new ObjectModeler("MODELER");
+		modeler.setSize(100, 200);
 		modeler.setVisible(true);
 	}
 }
